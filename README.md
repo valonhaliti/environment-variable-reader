@@ -8,7 +8,7 @@ npm i environment-variable-reader
 
 ## Usage
 
-Create a file named `.env`. And fill it with content like:
+Create a file named `.env` in your root directory. And fill it with content like:
 
 ```
 DB_NAME=thedb
