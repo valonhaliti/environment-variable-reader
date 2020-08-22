@@ -1,5 +1,11 @@
 # Environment Variable Reader
 
+## Install
+
+```
+npm i environment-variable-reader
+```
+
 ## Usage
 
 Create a file named `.env`. And fill it with content like:
