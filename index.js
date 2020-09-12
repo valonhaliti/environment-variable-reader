@@ -1,6 +1,7 @@
 require('dotenv').config();
+require('./envDiff').compareFiles('.env', '.env.example');
 
-let defaultEnvironmentVariables = [];
+const defaultEnvironmentVariables = [];
 
 function getEnvironmentVariable(envKey, defaultValue = null) {
   const envVal = process.env[envKey];
